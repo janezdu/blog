@@ -9,5 +9,3 @@ So it's the middle of the summer -- two-thirds of the way through, actually -- a
 For now, the articles themselves (note that I don't necessarily agree with all the opinions expressed, but I definitely enjoyed them.)
 - [Philip Guo's academic website](http://www.pgbovine.net/PhD-memoir.htm) and particularly his memoir, [Ph.D. Grind](http://www.pgbovine.net/PhD-memoir.htm)
 - [Jeffery Shallit](http://recursed.blogspot.ca)
-
-
