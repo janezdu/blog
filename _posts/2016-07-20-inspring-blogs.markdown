@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  To start off
 date:   2016-07-20 22:13:28 -0400
 categories: inspiration
 ---
