@@ -1,3 +1,4 @@
-# zhuangjindu.github.io
+Jane's github page
+=====
 
-Testing out Jekyll static blogs.
+Just testing things out for now.
