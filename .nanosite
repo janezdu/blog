@@ -1,1 +1,6 @@
-{}
+{
+  "package-url": "http://wanganzhou.com/nanosite/packages/",
+  "installed-packages": [
+    "blog"
+  ]
+}
