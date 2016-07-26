@@ -1,22 +1,12 @@
-@import url(https://fonts.googleapis.com/css?family=Merriweather:400,400italic,700);
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
-body {
-  padding: 45px 15px;
-  color: #2f4f4f;
-  line-height: 1.5em;
-  font-size: 14px;
-  text-align: left;
-  font-family: 'Source Code Pro', serif ; 
-  width: 700px;
-  margin-left: auto;
-  margin-right: auto;
-}
-  body * {
-    box-sizing: border-box; }
+
+
+* ::selection {
+  background-color: rgba(255, 255, 255, 0.1); }
 
 h1, h2, h3, h4, h5, h6{
-  line-height: 50px; 
+  line-height: 0px; 
   font-weight: 400;
 }
 
@@ -27,27 +17,21 @@ h4 { font-size: 18px; }
 h5 { font-size: 14px; }
 h6 { font-size: 12px; }
 
+hr {
+  border-color: #35373A; }
+
 @media (min-width: 768px) {
     body {
 	margin: 0 16.667%;
     }
 }
 
-h1 a, h2 a, h3 a {
-    text-decoration: none;
-}
-h1 a:hover, h2 a:hover, h3 a:hover {
-    color: black;
-}
-
 header {
-    margin-top: 1em;
     text-align: center;
 }
 
 nav {
     display: block;
-    margin: 1em;
 }
 
 nav ul {
@@ -66,7 +50,6 @@ nav li {
 nav li a {
     text-decoration: none;
     display: inline-block;
-    color: black;
 }
 
 nav ul li:hover {
@@ -119,18 +102,13 @@ img {
     max-width: 100%;
 }
 
-article {
-    margin-top: 2em;
-    margin-bottom: 3em;
-}
-
 a {
     text-decoration: underline;
-    color: black;
+    color: #39a
 }
 a:hover {
     text-decoration: underline;
-    color: red;
+    color: #aa4433
 }
 
 footer {
@@ -138,3 +116,17 @@ footer {
     margin-top: 1em;
     margin-bottom: 2em;
 }
+
+body {
+  padding: 45px 15px;
+  color: #2f4f4f;
+  line-height: 1.5em;
+  font-size: 14px;
+  text-align: left;
+  font-family: 'Source Code Pro', serif ; 
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+  body * {
+    box-sizing: border-box; }
