@@ -1,42 +1,39 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
-a {
-    text-decoration: none;
-    color: #39a;
-}
-a:hover {
-    text-decoration: none;
-    color: #aa4433;
-}
-
-h1, h2, h3, h4, h5, h6{
-    line-height: 0px; 
+h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
-    text-decoration: none;
+    margin: 0;
+    padding-bottom: 0.1em;
 }
 
-h1 { font-size: 48px; }
-h2 { font-size: 30px; }
-h3 { font-size: 24px; }
-h4 { font-size: 18px; }
-h5 { font-size: 14px; }
-h6 { font-size: 12px; }
+.container {
+    width: 66.667%;
+    padding: 0;
+    margin: 0 16.667%;
+}
 
-hr {
-  border-color: #35373A; }
+body {
+    font-family: 'Source Code Pro', serif;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-@media (min-width: 768px) {
-    body {
-	margin: 0 16.667%;
-    }
+h1 a, h2 a, h3 a {
+    text-decoration: none;
+}
+h1 a:hover, h2 a:hover, h3 a:hover {
+    color: black;			    
 }
 
 header {
+    margin-top: 2em;
     text-align: center;
 }
 
 nav {
     display: block;
+    margin: 1em;
 }
 
 nav ul {
@@ -55,6 +52,7 @@ nav li {
 nav li a {
     text-decoration: none;
     display: inline-block;
+    color: black;
 }
 
 nav ul li:hover {
@@ -92,37 +90,33 @@ nav ul li ul li a:hover {
     color: red;
 }
 
-p {
-    margin-top: 0;
-    margin-bottom: 10px;
-    line-height: 1.4;
-}
-
-pre, code {
-    display: block;
-    word-wrap: break-word;
-}
-
 img {
     max-width: 100%;
 }
 
-footer {
-    text-align: center;
-    margin-top: 1em;
+article {
+    margin-top: 2em;
     margin-bottom: 2em;
 }
 
-body {
-  padding: 45px 15px;
-  color: #2f4f4f;
-  line-height: 1.5em;
-  font-size: 14px;
-  text-align: left;
-  font-family: 'Source Code Pro', serif ; 
-  width: 700px;
-  margin-left: auto;
-  margin-right: auto;
+a {
+    text-decoration: none;
+    color: #39a;
 }
-  body * {
-    box-sizing: border-box; }
+a:hover {
+    color: #aa4433;
+}
+
+footer {
+    margin-top: 2 em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        width: 87.5%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
