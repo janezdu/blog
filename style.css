@@ -46,7 +46,7 @@ nav ul {
 nav li {
     display: inline;
     float: center;
-    padding-left: 1em;
+    padding: 1em;
     position: relative;
 }
 
